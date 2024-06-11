@@ -1,0 +1,9 @@
+{
+  "name": "data-processing",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "go": "bun src/index.ts",
+    "test": "bun test"
+  }
+}
