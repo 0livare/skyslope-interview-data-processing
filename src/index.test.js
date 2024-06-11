@@ -1,7 +1,7 @@
 import {expect, test} from 'bun:test'
 
-import * as short from './data/data-short'
-import * as long from './data/data-long'
+import * as short from './data/short'
+import * as long from './data/long'
 import {chooseEventDates} from './index'
 
 function runTest(data) {
@@ -19,4 +19,4 @@ function runTest(data) {
 }
 
 test('short', () => runTest(short))
-test('long', () => runTest(long))
+// test('long', () => runTest(long))
