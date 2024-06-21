@@ -8,7 +8,6 @@ export const input: Partner[] = [
     state: 'California',
     availableDates: [
       '2024-05-28',
-      '2024-05-29',
       '2024-05-30',
       '2024-05-31',
       '2024-06-01',
@@ -16,6 +15,7 @@ export const input: Partner[] = [
       '2024-06-03',
       '2024-06-04',
       '2024-06-10',
+      '2024-05-29',
     ],
   },
   {
